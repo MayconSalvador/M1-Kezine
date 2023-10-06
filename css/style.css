@@ -4,36 +4,33 @@ body {
     font-family: 'Roboto' sans-serif;
 }
 
-.header {
-    display: flex;
-    justify-content: center;
-    border: 2px solid;
+header {
     background: #8888f0;
+    text-align: center;
+    
 }
 
 .conteudo {
     font-size: 18px;
+    text-align: center;
+    background: whitesmoke;
+    border: 2px solid black;
 }
 
 .footer {
-    border: 3px solid;
-    display: block;
-    justify-content: center;
-    width: 100%;
-    text-align: center;
+    width: 100%;  
     background: #8888f0;
 }
 
 .conteudo p {
-    display: block;
     line-height: 100%;
-    padding: 0.5%;
-    text-decoration: solid;
-    width: 50%;
+    width: 20%;
+    text-align: center;
+    margin: auto;
 }
 
 .conteudo h3 {
-    font-weight: 1000; 
-    ali
+    font-weight: 1000;
+    padding: 20px; 
 }
 
